@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "CJqbo/BgHxpaJ2oniegmyvmkJeYtnTsy6IMIY6QtmZ7fbFn5HkXCENBB0jLK67GvvTQq8wctg7M/4qWHFW8WXw==",
+  "dgSpecHash": "V+8blIjcVcxYu0I7/T1UPQO+T+dGWlb+VXwwODE1/WWPLQrGg8FPBIygYaAzuYAjpkyolWhchnRVw0k3yQFM3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\mo_ro\\OneDrive\\Escritorio\\PROYECTO TODO-CODE\\BackendTodoCode\\BackendTodoCode.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mo_ro\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mo_ro\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\mo_ro\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\mo_ro\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\mo_ro\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\mo_ro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mo_ro\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\mo_ro\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

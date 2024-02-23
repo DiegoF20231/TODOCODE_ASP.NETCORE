@@ -134,3 +134,7 @@ C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\obj\Debug\
 C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\obj\Debug\net8.0\BackendTodoCode.pdb
 C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\obj\Debug\net8.0\BackendTodoCode.genruntimeconfig.cache
 C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\obj\Debug\net8.0\ref\BackendTodoCode.dll
+C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\obj\Debug\net8.0\BackendTodoCode.sourcelink.json
