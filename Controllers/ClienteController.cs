@@ -36,7 +36,7 @@ namespace BackendTodoCode.Controllers
             {
                 return BadRequest();
             }
-            return Ok(new { mensaje = "Cliente Creado", cliente });
+            return Ok(new { mensaje = "Cliente Creadooo", cliente });
         }
 
         [HttpDelete("/api/[controller]/{id:int}")]
