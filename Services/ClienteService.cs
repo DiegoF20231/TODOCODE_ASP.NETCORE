@@ -39,9 +39,22 @@ namespace BackendTodoCode.Services
             throw new NotImplementedException();
         }
 
-        public Task<Cliente> BuscarCliente(Cliente cliente)
+        public async Task<Cliente> BuscarCliente(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Cliente c = await _context.Clientes.FindAsync(id);
+                if (c == null)
+                {
+                    return null;
+                }
+                return c;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
         }
 
 

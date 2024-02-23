@@ -50,5 +50,15 @@ namespace BackendTodoCode.Controllers
             return Ok(new { mensaje = "Cliente eliminado" });
         }
 
+        [HttpGet("/api/[controller]/{id:int}")]
+        public async Task<IActionResult> BuscarCliente(int id)
+        {
+            Cliente c = await service.BuscarCliente(id);
+            if (c == null)
+            {
+                return BadRequest(new { mensaje = $"No existe un cliente con id {id}" });
+            }
+            return Ok(new { cliente = c });
+        }
     }
 }

@@ -1,5 +1,4 @@
 C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\net8.0\appsettings.json
 C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\net8.0\BackendTodoCode.exe
 C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\net8.0\BackendTodoCode.deps.json
 C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\net8.0\BackendTodoCode.runtimeconfig.json
@@ -138,3 +137,4 @@ C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\
 C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\obj\Debug\net8.0\BackendTodoCode.sourcelink.json
+C:\Users\mo_ro\OneDrive\Escritorio\PROYECTO TODO-CODE\BackendTodoCode\bin\Debug\net8.0\appsettings.json
