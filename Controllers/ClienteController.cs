@@ -60,5 +60,17 @@ namespace BackendTodoCode.Controllers
             }
             return Ok(new { cliente = c });
         }
+
+        [HttpPut("api/[controller]/{id:int}")]
+        public async Task<IActionResult> ActualizarCliente(Cliente cliente, int id)
+        {
+            Cliente c = await service.ActualizarCliente(cliente, id);
+            if (c == null)
+            {
+                return BadRequest(new { mensaje = $"No existe un cliente con id {id}" });
+            }
+            return Ok(new { mensaje = "Cliente actualizado", cliente = c });
+        }
+
     }
 }

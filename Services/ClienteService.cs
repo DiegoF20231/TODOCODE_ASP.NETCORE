@@ -79,6 +79,33 @@ namespace BackendTodoCode.Services
             }
         }
 
+        public async Task<Cliente> ActualizarCliente(Cliente cliente, int id)
+        {
+            try
+            {
+                Cliente c = await _context.Clientes.FindAsync(id);
+                if (c == null)
+                {
+                    return null;
+                }
+                c.NombreCliente = cliente.NombreCliente;
+                c.ApellidoCliente = cliente.ApellidoCliente;
+                c.EmailCliente = cliente.EmailCliente;
+                c.Dniempleado = cliente.Dniempleado;
+                c.CelularCliente = cliente.CelularCliente;
+                c.FechaNacimiento = cliente.FechaNacimiento;
+                c.IdNacionalidad = cliente.IdNacionalidad;
+                c.DireccionCliente = cliente.DireccionCliente;
 
+                await _context.SaveChangesAsync();
+
+                return c;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
     }
 }

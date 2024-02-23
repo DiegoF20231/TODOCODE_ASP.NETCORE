@@ -8,7 +8,7 @@ namespace BackendTodoCode.Interfaces
         public Task<bool> CrearCliente(Cliente cliente);
         public Task<bool> EliminarCliente(int id);
         public Task<Cliente> BuscarCliente(int id);
-        public Task<bool> ActualizarCliente(Cliente cliente);
+        public Task<Cliente> ActualizarCliente(Cliente cliente, int id);
 
 
     }
